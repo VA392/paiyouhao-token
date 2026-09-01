@@ -1,6 +1,6 @@
 # Stellar Ecosystem Proposal 1 (SEP-1) — 代币资产元数据
 # 该文件通过发行者账号的 home_domain 被发现：
-#   https://haoyisheng.xin/.well-known/stellar.toml
+#   https://token.haoyisheng.xin/.well-known/stellar.toml
 
 # 发行者（Issuer）账号
 ACCOUNTS = [
@@ -13,4 +13,4 @@ code = "paiyouhao"
 issuer = "GD7RUMSLWDZSDKB53R63MO25GYG7FNEJAK7L7UJNMZ4ESJOIU6AXX3NM"
 name = "haoyisheng"
 desc = "Pi 测试网上的数字资产代币"
-image = "https://haoyisheng.xin/logo.jpg"
+image = "https://token.haoyisheng.xin/logo.jpg"

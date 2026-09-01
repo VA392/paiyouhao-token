@@ -5,7 +5,7 @@ const server = new StellarSdk.Horizon.Server("https://api.testnet.minepi.com");
 const NETWORK_PASSPHRASE = "Pi Testnet";
 
 // 代币官网域名（用于钱包发现 .well-known/stellar.toml）
-const HOME_DOMAIN = "haoyisheng.xin";
+const HOME_DOMAIN = "token.haoyisheng.xin";
 
 // 私钥从环境变量读取（.env）
 const issuerSecret = process.env.ISSUER_SECRET; // 高振华
