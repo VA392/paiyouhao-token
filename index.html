@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>paiyouhao · Pi 测试网代币</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --card: #161d33;
+      --accent: #7c4dff;
+      --accent2: #00d4ff;
+      --text: #eef1f8;
+      --muted: #9aa3b8;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      background: radial-gradient(1200px 600px at 20% -10%, #221a4d 0%, transparent 60%),
+                  radial-gradient(1000px 500px at 90% 10%, #0b2b3f 0%, transparent 55%), var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .hero { text-align: center; margin-bottom: 40px; }
+    .logo {
+      width: 76px; height: 76px; margin: 0 auto 20px;
+      border-radius: 20px; display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      font-size: 34px; font-weight: 800; color: #fff;
+      box-shadow: 0 10px 40px rgba(124, 77, 255, 0.45);
+    }
+    h1 { font-size: 44px; letter-spacing: 1px; }
+    .tagline { color: var(--muted); margin-top: 10px; font-size: 18px; }
+    .card {
+      background: var(--card); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 18px; padding: 30px 32px; max-width: 520px; width: 100%;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.35); margin-bottom: 28px;
+    }
+    .card h2 { font-size: 16px; color: var(--muted); margin-bottom: 18px; font-weight: 600; letter-spacing: 2px; }
+    .row { display: flex; justify-content: space-between; padding: 12px 0; border-top: 1px solid rgba(255,255,255,0.06); font-size: 15px; }
+    .row:first-of-type { border-top: none; }
+    .row .k { color: var(--muted); }
+    .row .v { color: var(--text); font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; word-break: break-all; text-align: right; }
+    .cta {
+      display: inline-block; padding: 14px 28px; border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff; text-decoration: none; font-weight: 600;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .cta:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(0,212,255,0.35); }
+    footer { color: var(--muted); font-size: 13px; margin-top: 30px; }
+    footer a { color: var(--accent2); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="logo">P</div>
+    <h1>paiyouhao</h1>
+    <p class="tagline">Pi 测试网上的数字资产代币</p>
+  </div>
+
+  <div class="card">
+    <h2>代币信息</h2>
+    <div class="row"><span class="k">资产代码</span><span class="v">paiyouhao</span></div>
+    <div class="row"><span class="k">网络</span><span class="v">Pi Testnet</span></div>
+    <div class="row"><span class="k">发行者</span><span class="v">GD7R…X3NM</span></div>
+    <div class="row"><span class="k">首次发行</span><span class="v">1,000,000</span></div>
+  </div>
+
+  <a class="cta" href="https://github.com/VA392/paiyouhao-token" target="_blank" rel="noopener">查看代码仓库</a>
+
+  <footer>
+    © 2026 paiyouhao.xin · 项目源码见
+    <a href="https://github.com/VA392/paiyouhao-token" target="_blank" rel="noopener">GitHub</a>
+  </footer>
+</body>
+</html>
