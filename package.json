@@ -1,0 +1,12 @@
+{
+  "name": "paiyouhao-token",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pi 测试网 paiyouhao 代币发行 + 信任线授权脚本",
+  "scripts": {
+    "start": "node --env-file=.env trustline.js"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^17.0.1"
+  }
+}
